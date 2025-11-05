@@ -17,7 +17,6 @@ function displayData(data) {
         <td>${index + 1}</td>
         <td>${user.name}</td>
         <td>${user.city}</td>
-        <td>${user.age}</td>
       </tr>
     `;
     tableBody.innerHTML += row;
@@ -33,5 +32,6 @@ document.getElementById("searchInput").addEventListener("keyup", function () {
   );
   displayData(filtered);
 });
+
 
 
